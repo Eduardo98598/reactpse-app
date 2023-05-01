@@ -1,0 +1,12 @@
+@media (max-width: 600px) {
+  .nav-buttons {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-button {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+}

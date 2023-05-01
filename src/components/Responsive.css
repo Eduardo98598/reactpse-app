@@ -1,0 +1,50 @@
+/* Estilos para dispositivos pequeños */
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+    
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+    
+    .column {
+      width: 100%;
+    }
+  }
+  
+  /* Estilos para dispositivos medianos */
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+      font-size: 16px;
+    }
+    
+    .container {
+      width: 90%;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Estilos para dispositivos grandes */
+  @media only screen and (min-width: 901px) {
+    body {
+      font-size: 18px;
+    }
+    
+    .container {
+      width: 80%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .column {
+      width: 33.33%;
+    }
+  }
+  
